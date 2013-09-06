@@ -1,0 +1,494 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/meshachjackson/.nvm/v0.11.1/bin/node',
+1 verbose cli   '/Users/meshachjackson/.nvm/v0.11.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.18
+3 info using node@v0.11.1
+4 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/package.json
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/meshachjackson/cita/sandbox/js/josi',
+6 verbose install   [ 'coffee-script',
+6 verbose install     'josi-access',
+6 verbose install     'josi-admin',
+6 verbose install     'josi-auth',
+6 verbose install     'josi-aware',
+6 verbose install     'josi-memory',
+6 verbose install     'josi-plan',
+6 verbose install     'josi-routes',
+6 verbose install     'josi-seek',
+6 verbose install     'josi-speech',
+6 verbose install     'josi-state',
+6 verbose install     'josi-team',
+6 verbose install     'mocha',
+6 verbose install     'chai',
+6 verbose install     'sinon-chai',
+6 verbose install     'sinon' ] ]
+7 verbose from cache /Users/meshachjackson/cita/sandbox/js/josi/package.json
+8 info preinstall josi@1.0.0
+9 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/chai/package.json
+10 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/coffee-script/package.json
+11 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-access/package.json
+12 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-admin/package.json
+13 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-auth/package.json
+14 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-aware/package.json
+15 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-memory/package.json
+16 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-plan/package.json
+17 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-routes/package.json
+18 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-seek/package.json
+19 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-speech/package.json
+20 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-state/package.json
+21 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-team/package.json
+22 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/mocha/package.json
+23 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/sinon/package.json
+24 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/sinon-chai/package.json
+25 verbose from cache /Users/meshachjackson/cita/sandbox/js/josi/package.json
+26 verbose readDependencies using package.json deps
+27 verbose from cache /Users/meshachjackson/cita/sandbox/js/josi/node_modules/chai/package.json
+28 verbose from cache /Users/meshachjackson/cita/sandbox/js/josi/node_modules/coffee-script/package.json
+29 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-access/package.json
+30 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-admin/package.json
+31 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-auth/package.json
+32 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-aware/package.json
+33 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-memory/package.json
+34 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-plan/package.json
+35 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-routes/package.json
+36 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-seek/package.json
+37 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-speech/package.json
+38 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-state/package.json
+39 verbose read json /Users/meshachjackson/cita/sandbox/js/josi/node_modules/josi-team/package.json
+40 verbose from cache /Users/meshachjackson/cita/sandbox/js/josi/node_modules/mocha/package.json
+41 verbose from cache /Users/meshachjackson/cita/sandbox/js/josi/node_modules/sinon/package.json
+42 verbose from cache /Users/meshachjackson/cita/sandbox/js/josi/node_modules/sinon-chai/package.json
+43 verbose cache add [ 'josi-aware@*', null ]
+44 verbose cache add name=undefined spec="josi-aware@*" args=["josi-aware@*",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'josi-aware@*',
+45 verbose parsed url   path: 'josi-aware@*',
+45 verbose parsed url   href: 'josi-aware@*' }
+46 verbose cache add name="josi-aware" spec="*" args=["josi-aware","*"]
+47 verbose parsed url { protocol: null,
+47 verbose parsed url   slashes: null,
+47 verbose parsed url   auth: null,
+47 verbose parsed url   host: null,
+47 verbose parsed url   port: null,
+47 verbose parsed url   hostname: null,
+47 verbose parsed url   hash: null,
+47 verbose parsed url   search: null,
+47 verbose parsed url   query: null,
+47 verbose parsed url   pathname: '*',
+47 verbose parsed url   path: '*',
+47 verbose parsed url   href: '*' }
+48 verbose addNamed [ 'josi-aware', '*' ]
+49 verbose addNamed [ null, '' ]
+50 verbose cache add [ 'josi-auth@*', null ]
+51 verbose cache add name=undefined spec="josi-auth@*" args=["josi-auth@*",null]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'josi-auth@*',
+52 verbose parsed url   path: 'josi-auth@*',
+52 verbose parsed url   href: 'josi-auth@*' }
+53 verbose cache add name="josi-auth" spec="*" args=["josi-auth","*"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '*',
+54 verbose parsed url   path: '*',
+54 verbose parsed url   href: '*' }
+55 verbose addNamed [ 'josi-auth', '*' ]
+56 verbose addNamed [ null, '' ]
+57 verbose cache add [ 'josi-memory@*', null ]
+58 verbose cache add name=undefined spec="josi-memory@*" args=["josi-memory@*",null]
+59 verbose parsed url { protocol: null,
+59 verbose parsed url   slashes: null,
+59 verbose parsed url   auth: null,
+59 verbose parsed url   host: null,
+59 verbose parsed url   port: null,
+59 verbose parsed url   hostname: null,
+59 verbose parsed url   hash: null,
+59 verbose parsed url   search: null,
+59 verbose parsed url   query: null,
+59 verbose parsed url   pathname: 'josi-memory@*',
+59 verbose parsed url   path: 'josi-memory@*',
+59 verbose parsed url   href: 'josi-memory@*' }
+60 verbose cache add name="josi-memory" spec="*" args=["josi-memory","*"]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '*',
+61 verbose parsed url   path: '*',
+61 verbose parsed url   href: '*' }
+62 verbose addNamed [ 'josi-memory', '*' ]
+63 verbose addNamed [ null, '' ]
+64 verbose cache add [ 'josi-plan@*', null ]
+65 verbose cache add name=undefined spec="josi-plan@*" args=["josi-plan@*",null]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: 'josi-plan@*',
+66 verbose parsed url   path: 'josi-plan@*',
+66 verbose parsed url   href: 'josi-plan@*' }
+67 verbose cache add name="josi-plan" spec="*" args=["josi-plan","*"]
+68 verbose parsed url { protocol: null,
+68 verbose parsed url   slashes: null,
+68 verbose parsed url   auth: null,
+68 verbose parsed url   host: null,
+68 verbose parsed url   port: null,
+68 verbose parsed url   hostname: null,
+68 verbose parsed url   hash: null,
+68 verbose parsed url   search: null,
+68 verbose parsed url   query: null,
+68 verbose parsed url   pathname: '*',
+68 verbose parsed url   path: '*',
+68 verbose parsed url   href: '*' }
+69 verbose addNamed [ 'josi-plan', '*' ]
+70 verbose addNamed [ null, '' ]
+71 silly lockFile 26c0ac09-josi-aware josi-aware@*
+72 verbose lock josi-aware@* /Users/meshachjackson/.npm/26c0ac09-josi-aware.lock
+73 verbose cache add [ 'josi-routes@*', null ]
+74 verbose cache add name=undefined spec="josi-routes@*" args=["josi-routes@*",null]
+75 verbose parsed url { protocol: null,
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'josi-routes@*',
+75 verbose parsed url   path: 'josi-routes@*',
+75 verbose parsed url   href: 'josi-routes@*' }
+76 verbose cache add name="josi-routes" spec="*" args=["josi-routes","*"]
+77 verbose parsed url { protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: '*',
+77 verbose parsed url   path: '*',
+77 verbose parsed url   href: '*' }
+78 verbose addNamed [ 'josi-routes', '*' ]
+79 verbose addNamed [ null, '' ]
+80 silly lockFile 2c44e593-josi-routes josi-routes@*
+81 verbose lock josi-routes@* /Users/meshachjackson/.npm/2c44e593-josi-routes.lock
+82 silly lockFile 2fa93f32-josi-auth josi-auth@*
+83 verbose lock josi-auth@* /Users/meshachjackson/.npm/2fa93f32-josi-auth.lock
+84 silly addNameRange { name: 'josi-aware', range: '', hasData: false }
+85 silly lockFile e22f92f2-josi-memory josi-memory@*
+86 verbose lock josi-memory@* /Users/meshachjackson/.npm/e22f92f2-josi-memory.lock
+87 verbose cache add [ 'josi-seek@*', null ]
+88 verbose cache add name=undefined spec="josi-seek@*" args=["josi-seek@*",null]
+89 verbose parsed url { protocol: null,
+89 verbose parsed url   slashes: null,
+89 verbose parsed url   auth: null,
+89 verbose parsed url   host: null,
+89 verbose parsed url   port: null,
+89 verbose parsed url   hostname: null,
+89 verbose parsed url   hash: null,
+89 verbose parsed url   search: null,
+89 verbose parsed url   query: null,
+89 verbose parsed url   pathname: 'josi-seek@*',
+89 verbose parsed url   path: 'josi-seek@*',
+89 verbose parsed url   href: 'josi-seek@*' }
+90 verbose cache add name="josi-seek" spec="*" args=["josi-seek","*"]
+91 verbose parsed url { protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: '*',
+91 verbose parsed url   path: '*',
+91 verbose parsed url   href: '*' }
+92 verbose addNamed [ 'josi-seek', '*' ]
+93 verbose addNamed [ null, '' ]
+94 silly lockFile 3caeb974-josi-seek josi-seek@*
+95 verbose lock josi-seek@* /Users/meshachjackson/.npm/3caeb974-josi-seek.lock
+96 verbose cache add [ 'josi-speech@*', null ]
+97 verbose cache add name=undefined spec="josi-speech@*" args=["josi-speech@*",null]
+98 verbose parsed url { protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: 'josi-speech@*',
+98 verbose parsed url   path: 'josi-speech@*',
+98 verbose parsed url   href: 'josi-speech@*' }
+99 verbose cache add name="josi-speech" spec="*" args=["josi-speech","*"]
+100 verbose parsed url { protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '*',
+100 verbose parsed url   path: '*',
+100 verbose parsed url   href: '*' }
+101 verbose addNamed [ 'josi-speech', '*' ]
+102 verbose addNamed [ null, '' ]
+103 silly lockFile 96e98542-josi-speech josi-speech@*
+104 verbose lock josi-speech@* /Users/meshachjackson/.npm/96e98542-josi-speech.lock
+105 verbose cache add [ 'josi-state@*', null ]
+106 verbose cache add name=undefined spec="josi-state@*" args=["josi-state@*",null]
+107 verbose parsed url { protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: 'josi-state@*',
+107 verbose parsed url   path: 'josi-state@*',
+107 verbose parsed url   href: 'josi-state@*' }
+108 verbose cache add name="josi-state" spec="*" args=["josi-state","*"]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: '*',
+109 verbose parsed url   path: '*',
+109 verbose parsed url   href: '*' }
+110 verbose addNamed [ 'josi-state', '*' ]
+111 verbose addNamed [ null, '' ]
+112 silly lockFile 447f7f1c-josi-state josi-state@*
+113 verbose lock josi-state@* /Users/meshachjackson/.npm/447f7f1c-josi-state.lock
+114 silly addNameRange { name: 'josi-routes', range: '', hasData: false }
+115 silly lockFile 51a1ead0-josi-plan josi-plan@*
+116 verbose lock josi-plan@* /Users/meshachjackson/.npm/51a1ead0-josi-plan.lock
+117 silly addNameRange { name: 'josi-auth', range: '', hasData: false }
+118 verbose url raw josi-aware
+119 verbose url resolving [ 'https://registry.npmjs.org/', './josi-aware' ]
+120 verbose url resolved https://registry.npmjs.org/josi-aware
+121 info trying registry request attempt 1 at 18:30:29
+122 http GET https://registry.npmjs.org/josi-aware
+123 silly addNameRange { name: 'josi-memory', range: '', hasData: false }
+124 silly addNameRange { name: 'josi-seek', range: '', hasData: false }
+125 silly addNameRange { name: 'josi-speech', range: '', hasData: false }
+126 verbose cache add [ 'josi-team@*', null ]
+127 verbose cache add name=undefined spec="josi-team@*" args=["josi-team@*",null]
+128 verbose parsed url { protocol: null,
+128 verbose parsed url   slashes: null,
+128 verbose parsed url   auth: null,
+128 verbose parsed url   host: null,
+128 verbose parsed url   port: null,
+128 verbose parsed url   hostname: null,
+128 verbose parsed url   hash: null,
+128 verbose parsed url   search: null,
+128 verbose parsed url   query: null,
+128 verbose parsed url   pathname: 'josi-team@*',
+128 verbose parsed url   path: 'josi-team@*',
+128 verbose parsed url   href: 'josi-team@*' }
+129 verbose cache add name="josi-team" spec="*" args=["josi-team","*"]
+130 verbose parsed url { protocol: null,
+130 verbose parsed url   slashes: null,
+130 verbose parsed url   auth: null,
+130 verbose parsed url   host: null,
+130 verbose parsed url   port: null,
+130 verbose parsed url   hostname: null,
+130 verbose parsed url   hash: null,
+130 verbose parsed url   search: null,
+130 verbose parsed url   query: null,
+130 verbose parsed url   pathname: '*',
+130 verbose parsed url   path: '*',
+130 verbose parsed url   href: '*' }
+131 verbose addNamed [ 'josi-team', '*' ]
+132 verbose addNamed [ null, '' ]
+133 silly lockFile 9b208859-josi-team josi-team@*
+134 verbose lock josi-team@* /Users/meshachjackson/.npm/9b208859-josi-team.lock
+135 verbose already installed skipping mocha@* /Users/meshachjackson/cita/sandbox/js/josi
+136 verbose already installed skipping chai@* /Users/meshachjackson/cita/sandbox/js/josi
+137 verbose already installed skipping sinon-chai@* /Users/meshachjackson/cita/sandbox/js/josi
+138 verbose already installed skipping sinon@* /Users/meshachjackson/cita/sandbox/js/josi
+139 verbose already installed skipping coffee-script@~1.6 /Users/meshachjackson/cita/sandbox/js/josi
+140 verbose cache add [ 'josi-access@*', null ]
+141 verbose cache add name=undefined spec="josi-access@*" args=["josi-access@*",null]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'josi-access@*',
+142 verbose parsed url   path: 'josi-access@*',
+142 verbose parsed url   href: 'josi-access@*' }
+143 verbose cache add name="josi-access" spec="*" args=["josi-access","*"]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: '*',
+144 verbose parsed url   path: '*',
+144 verbose parsed url   href: '*' }
+145 verbose addNamed [ 'josi-access', '*' ]
+146 verbose addNamed [ null, '' ]
+147 silly lockFile da7b6fb4-josi-access josi-access@*
+148 verbose lock josi-access@* /Users/meshachjackson/.npm/da7b6fb4-josi-access.lock
+149 verbose cache add [ 'josi-admin@*', null ]
+150 verbose cache add name=undefined spec="josi-admin@*" args=["josi-admin@*",null]
+151 verbose parsed url { protocol: null,
+151 verbose parsed url   slashes: null,
+151 verbose parsed url   auth: null,
+151 verbose parsed url   host: null,
+151 verbose parsed url   port: null,
+151 verbose parsed url   hostname: null,
+151 verbose parsed url   hash: null,
+151 verbose parsed url   search: null,
+151 verbose parsed url   query: null,
+151 verbose parsed url   pathname: 'josi-admin@*',
+151 verbose parsed url   path: 'josi-admin@*',
+151 verbose parsed url   href: 'josi-admin@*' }
+152 verbose cache add name="josi-admin" spec="*" args=["josi-admin","*"]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: '*',
+153 verbose parsed url   path: '*',
+153 verbose parsed url   href: '*' }
+154 verbose addNamed [ 'josi-admin', '*' ]
+155 verbose addNamed [ null, '' ]
+156 silly lockFile 6beca9b6-josi-admin josi-admin@*
+157 verbose lock josi-admin@* /Users/meshachjackson/.npm/6beca9b6-josi-admin.lock
+158 silly addNameRange { name: 'josi-state', range: '', hasData: false }
+159 verbose url raw josi-routes
+160 verbose url resolving [ 'https://registry.npmjs.org/', './josi-routes' ]
+161 verbose url resolved https://registry.npmjs.org/josi-routes
+162 info trying registry request attempt 1 at 18:30:29
+163 http GET https://registry.npmjs.org/josi-routes
+164 silly addNameRange { name: 'josi-plan', range: '', hasData: false }
+165 verbose url raw josi-auth
+166 verbose url resolving [ 'https://registry.npmjs.org/', './josi-auth' ]
+167 verbose url resolved https://registry.npmjs.org/josi-auth
+168 info trying registry request attempt 1 at 18:30:29
+169 http GET https://registry.npmjs.org/josi-auth
+170 verbose url raw josi-memory
+171 verbose url resolving [ 'https://registry.npmjs.org/', './josi-memory' ]
+172 verbose url resolved https://registry.npmjs.org/josi-memory
+173 info trying registry request attempt 1 at 18:30:29
+174 http GET https://registry.npmjs.org/josi-memory
+175 verbose url raw josi-seek
+176 verbose url resolving [ 'https://registry.npmjs.org/', './josi-seek' ]
+177 verbose url resolved https://registry.npmjs.org/josi-seek
+178 info trying registry request attempt 1 at 18:30:29
+179 http GET https://registry.npmjs.org/josi-seek
+180 verbose url raw josi-speech
+181 verbose url resolving [ 'https://registry.npmjs.org/', './josi-speech' ]
+182 verbose url resolved https://registry.npmjs.org/josi-speech
+183 info trying registry request attempt 1 at 18:30:29
+184 http GET https://registry.npmjs.org/josi-speech
+185 silly addNameRange { name: 'josi-team', range: '', hasData: false }
+186 silly addNameRange { name: 'josi-access', range: '', hasData: false }
+187 silly addNameRange { name: 'josi-admin', range: '', hasData: false }
+188 verbose url raw josi-state
+189 verbose url resolving [ 'https://registry.npmjs.org/', './josi-state' ]
+190 verbose url resolved https://registry.npmjs.org/josi-state
+191 info trying registry request attempt 1 at 18:30:29
+192 http GET https://registry.npmjs.org/josi-state
+193 verbose url raw josi-plan
+194 verbose url resolving [ 'https://registry.npmjs.org/', './josi-plan' ]
+195 verbose url resolved https://registry.npmjs.org/josi-plan
+196 info trying registry request attempt 1 at 18:30:29
+197 http GET https://registry.npmjs.org/josi-plan
+198 verbose url raw josi-team
+199 verbose url resolving [ 'https://registry.npmjs.org/', './josi-team' ]
+200 verbose url resolved https://registry.npmjs.org/josi-team
+201 info trying registry request attempt 1 at 18:30:29
+202 http GET https://registry.npmjs.org/josi-team
+203 verbose url raw josi-access
+204 verbose url resolving [ 'https://registry.npmjs.org/', './josi-access' ]
+205 verbose url resolved https://registry.npmjs.org/josi-access
+206 info trying registry request attempt 1 at 18:30:29
+207 http GET https://registry.npmjs.org/josi-access
+208 verbose url raw josi-admin
+209 verbose url resolving [ 'https://registry.npmjs.org/', './josi-admin' ]
+210 verbose url resolved https://registry.npmjs.org/josi-admin
+211 info trying registry request attempt 1 at 18:30:29
+212 http GET https://registry.npmjs.org/josi-admin
+213 http 404 https://registry.npmjs.org/josi-routes
+214 silly registry.get cb [ 404,
+214 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+214 silly registry.get     date: 'Fri, 06 Sep 2013 01:30:27 GMT',
+214 silly registry.get     'content-type': 'application/json',
+214 silly registry.get     'content-length': '52',
+214 silly registry.get     'cache-control': 'must-revalidate' } ]
+215 silly lockFile 2c44e593-josi-routes josi-routes@*
+216 silly lockFile 2c44e593-josi-routes josi-routes@*
+217 error 404 'josi-routes' is not in the npm registry.
+217 error 404 You should bug the author to publish it
+217 error 404
+217 error 404 Note that you can also install from a
+217 error 404 tarball, folder, or http url, or git url.
+218 error System Darwin 12.4.0
+219 error command "/Users/meshachjackson/.nvm/v0.11.1/bin/node" "/Users/meshachjackson/.nvm/v0.11.1/bin/npm" "install"
+220 error cwd /Users/meshachjackson/cita/sandbox/js/josi
+221 error node -v v0.11.1
+222 error npm -v 1.2.18
+223 error code E404
+224 verbose exit [ 1, true ]
