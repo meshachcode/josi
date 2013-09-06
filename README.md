@@ -1,5 +1,26 @@
 # JoSi's Roadmap
 
+### Contents
+
+* [Installation](#installation)
+* [JoSi's Developmental Stages](#josis-developmental-stages)
+	* [Beta](#beta)
+	* [Mo' beta](#mo-beta)
+	* [Beta Still](#beta-still)
+	* [Besta](#besta)
+* [Dev Structure](#dev-structure)
+	* [josi-access](#josi-access)
+	* [josi-admin](#josi-admin)
+	* [josi-auth](#josi-auth)
+	* [josi-aware](#josi-aware)
+	* [josi-memory](#josi-memory)
+	* [josi-plan](#josi-plan)
+	* [josi-routes](#josi-routes)
+	* [josi-seek](#josi-seek)
+	* [josi-speech](#josi-speech)
+	* [josi-state](#josi-state)
+	* [josi-team](#josi-team)
+
 ## Installation
 
 ### 1. Add josi to external-scripts.json
@@ -84,7 +105,6 @@ NOTE: This is not a complete representation of dependencies for this file. Just 
 					- josi-aware/
 					- josi-memory/
 					- josi-plan/
-					- josi-recognition/
 					- josi-routes/
 					- josi-seek/
 					- josi-speech/
