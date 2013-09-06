@@ -23,20 +23,32 @@
 
 ## Installation
 
-### 1. Add josi to external-scripts.json
+### Install Hubot
 
-	[
-		"josi"
-	]
-		
-### 2. Add josi to package.json
+	mkdir hubot
+	cd hubot/
+	npm install hubot
+
+### Add josi to package.json
 
 	"dependencies": {
 		"hubot": "*",
 		"josi": "*"
 	}
 	
-NOTE: This is not a complete representation of dependencies for this file. Just an illustration of where to put the info.
+### Add josi to external-scripts.json
+
+(/src/templates/external-scripts.json)
+
+	[
+		"josi"
+	]
+
+### Install Dependencies
+
+	npm install
+
+That's it! You should now have all of JoSi's packages installed and ready to go!
 
 ***
 
