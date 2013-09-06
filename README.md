@@ -32,7 +32,7 @@
 ### 2. Add josi to package.json
 
 	"dependencies": {
-		"JoSi": "*",
+		"hubot": "*",
 		"josi": "*"
 	}
 	
