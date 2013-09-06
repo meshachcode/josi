@@ -1,4 +1,4 @@
-# JoSi
+# JoSi's Roadmap
 
 ## Installation
 
@@ -18,8 +18,6 @@
 NOTE: This is not a complete representation of dependencies for this file. Just an illustration of where to put the info.
 
 ***
-
-# JoSi's Roadmap
 
 ## JoSi's Developmental Stages
 
@@ -97,6 +95,10 @@ NOTE: This is not a complete representation of dependencies for this file. Just 
 
 ### josi-access
 
+[coming soon]
+
+	npm install josi-access
+
 This is a framework for connecting all of your robot's various API's, adapters, and environments. This is where you handle all of your per-application authentication and control. These modules depend heavily on environment variables, and will need to evolve to account for easier management over time.
 
 	- josi-access/
@@ -112,6 +114,10 @@ This is a framework for connecting all of your robot's various API's, adapters, 
 
 ### josi-admin
 
+[coming soon]
+
+	npm install josi-admin
+
 All of the tools necessary for administering JoSi via the adapter interface (HipChat, IRC…) are managed in this package.
 
 	- josi-admin/
@@ -123,6 +129,10 @@ All of the tools necessary for administering JoSi via the adapter interface (Hip
 
 ### josi-auth
 
+[coming soon]
+
+	npm install josi-auth
+
 This is where you manage any scripts that require per-user authentication in any way. 
 
 	- josi-auth/
@@ -133,6 +143,10 @@ This is where you manage any scripts that require per-user authentication in any
 
 ### josi-aware
 
+[coming soon]
+
+	npm install josi-aware
+
 This is the overall event management system, where you manage all namespaced events, and handle things like server monitoring, repo sync, and emergency / warning protocols.
 
 	- josi-aware/
@@ -142,6 +156,10 @@ This is the overall event management system, where you manage all namespaced eve
 
 ### josi-memory
 
+[coming soon]
+
+	npm install josi-memory
+
 This is where you organize and manage all of your robot's short and long-term memory. Whatever storage and backup plans you have for JoSi are managed here, as are any memory Models, for more complex applications.
 
 	- josi-memory/
@@ -150,6 +168,10 @@ This is where you organize and manage all of your robot's short and long-term me
 
 ### josi-plan
 
+[coming soon]
+
+	npm install josi-plan
+
 Need a robot secretary? josi-plan is the manager for all things scheduling, planning, and decision-making.
 
 	- josi-plan/
@@ -157,6 +179,10 @@ Need a robot secretary? josi-plan is the manager for all things scheduling, plan
 			- workingon.coffee			
 
 ### josi-routes
+
+[coming soon]
+
+	npm install josi-routes
 
 This is where all of your robot's http activity is managed. Your team can endlessly-extend http connectors to your JoSi's available processes and commands in these simple packages.
 
@@ -170,6 +196,10 @@ This is where all of your robot's http activity is managed. Your team can endles
 
 ### josi-seek
 
+[coming soon]
+
+	npm install josi-seek
+
 This is how your JoSi connects to the public internet (think: **no auth**). You can configure your preferred sources, and easily test and adapt new sources as you discover them.
 
 	- josi-seek/
@@ -181,6 +211,10 @@ This is how your JoSi connects to the public internet (think: **no auth**). You 
 			- wikipedia.coffee
 
 ### josi-speech
+
+[coming soon]
+
+	npm install josi-speech
 
 Natural language is a crucial part of the value and adoption of your JoSi by your team. Manage her standard responses, diction, and language here.
 
@@ -198,6 +232,10 @@ Natural language is a crucial part of the value and adoption of your JoSi by you
 
 ### josi-state
 
+[coming soon]
+
+	npm install josi-state
+
 When your JoSi is aware of his current state, he can report on changes to that state in any way. This is the framework for handling all your JoSi's various states, and the processes you want implemented for each change.
 
 	- josi-state/
@@ -205,6 +243,10 @@ When your JoSi is aware of his current state, he can report on changes to that s
 			- status.coffee
 
 ### josi-team
+
+[coming soon]
+
+	npm install josi-team
 
 Everyone wants to have a little fun with a robot every now and then. josi-play is where you manage all of your team-building, social interactions.
 
