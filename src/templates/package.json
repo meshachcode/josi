@@ -1,0 +1,48 @@
+{
+  "name": "hosted-hubot",
+  "version": "2.6.3",
+
+  "author": "GitHub Inc.",
+
+  "keywords": [
+    "github",
+    "hubot",
+    "campfire",
+    "bot"
+  ],
+
+  "description": "A simple helpful robot for your Company",
+
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/github/hubot/raw/master/LICENSE"
+  }],
+
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/github/hubot.git"
+  },
+
+  "dependencies": {
+    "hubot":         ">= 2.6.0 < 3.0.0",
+    "hubot-hipchat": "~2.5.1-1",
+    "mkdirp": "*",
+    "mustache": "*",
+    "randpass": "*",
+    "josi-access": "*",
+    "josi-admin": "*",
+    "josi-auth": "*",
+    "josi-aware": "*",
+    "josi-memory": "*",
+    "josi-plan": "*",
+    "josi-routes": "*",
+    "josi-seek": "*",
+    "josi-speech": "*",
+    "josi-team": "*"
+  },
+
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm":  ">= 1.1.x"
+  }
+}

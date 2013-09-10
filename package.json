@@ -1,48 +1,44 @@
 {
-  "name": "hosted-hubot",
-  "version": "2.6.3",
-
-  "author": "GitHub Inc.",
-
+  "name": "josi",
+  "version": "0.1.1",
+  "author": {
+    "name": "jollyscience"
+  },
   "keywords": [
     "github",
     "hubot",
-    "campfire",
+    "hipchat",
+    "josi",
     "bot"
   ],
-
-  "description": "A simple helpful robot for your Company",
-
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://github.com/github/hubot/raw/master/LICENSE"
-  }],
-
-  "repository" : {
+  "description": "The Jolly Science bot, based on Hubot. Her name is JoSi.",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jollyscience/josi/master/LICENSE.md"
+    }
+  ],
+  "repository": {
     "type": "git",
-    "url": "https://github.com/github/hubot.git"
+    "url": "https://github.com/jollyscience/josi.git"
   },
-
   "dependencies": {
-    "hubot":         ">= 2.6.0 < 3.0.0",
-    "hubot-hipchat": "~2.5.1-1",
-    "mkdirp": "*",
-    "mustache": "*",
-    "randpass": "*",
-    "josi-access": "*",
-    "josi-admin": "*",
-    "josi-auth": "*",
-    "josi-aware": "*",
-    "josi-memory": "*",
-    "josi-plan": "*",
-    "josi-routes": "*",
-    "josi-seek": "*",
-    "josi-speech": "*",
-    "josi-team": "*"
+    "coffee-script": "1.6.3",
+    "optparse": "1.0.4",
+    "scoped-http-client": "0.9.8",
+    "log": "1.4.0",
+    "express": "3.3.4"
   },
-
   "engines": {
     "node": ">= 0.8.x",
-    "npm":  ">= 1.1.x"
-  }
+    "npm": ">= 1.1.x"
+  },
+  "main": "./index",
+  "bin": {
+    "josi": "./bin/hubot"
+  },
+  "readme": "# JoSi - (built on Hubot)\n\nHubot is a chat bot, modeled after GitHub's Campfire bot, hubot. He's pretty\ncool. He's extendable with\n[community scripts](https://github.com/github/hubot-scripts) and your own custom\nscripts, and can work on [many different chat services](docs/adapters.md).\n\nThis repository provides a library that's distributed by `npm` that you\nuse for building your own bots.  See the [docs/README.md](docs/README.md)\nfor details on getting up and running with your very own robot friend.\n\nIn most cases, you'll probably never have to hack on this repo directly if you\nare building your own bot. But if you do, check out [CONTRIBUTING.md](CONTRIBUTING.md)\n\n## License\n\nCopyright (c) 2011-2013 GitHub, Inc. See the LICENSE file for license rights and\nlimitations (MIT).\n",
+  "readmeFilename": "README.md",
+  "_id": "josi@0.1.1",
+  "_from": "josi@"
 }
